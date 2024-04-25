@@ -1,15 +1,17 @@
-<div>
+
+<div class="search">
 <label for="search">Sök kurs:</label>
 <input type="text" id="search" name="search" [(ngModel)]="searchField" (input)="searchCourses()">
 </div>
 
+<div class="container">
 <table>
 <thead>
     <tr>
         <th class="clickable" (click)="sortColumn('code')">Kurskod &#x21c5;</th>
         <th class="clickable" (click)="sortColumn('coursename')">Kursnamn &#x21c5;</th>
         <th class="clickable" (click)="sortColumn('progression')">Progression &#x21c5;</th>
-        <th>Kursplan</th>
+        <th class="syllabus">Kursplan</th>
     </tr>
 </thead>
 <tr *ngFor="let course of sortedCourses">
@@ -18,3 +20,4 @@
 <td class="center">{{ course.progression }}</td>
 <td class="center"><a href="{{ course.syllabus }}">Kursplan</a></td></tr>
 </table>
+</div>
