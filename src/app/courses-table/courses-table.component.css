@@ -1,0 +1,32 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.481);
+    border: 1px solid green;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collpase;
+}
+
+th {
+    background-color: rgba(4, 89, 61, 0.479);
+    padding: 0 1em;
+}
+
+td {
+    border-bottom: 1px solid green;
+}
+
+.center {
+    text-align: center;
+}
+
+.clickable {
+    cursor: pointer;
+}
