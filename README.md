@@ -1,5 +1,7 @@
 # AngularII
 
+Uppgiften gick ut på att skapa en Angular-applikation som hämtar data från en JSON-fil med HttpClient. Datan skulle läsas ut i en tabell och i tabellen skulle man kunna sortera kurskod, kursnamn och progression i alfabetisk ordning. Man skulle också kunna filtrera datan via ett input-fält.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
 ## Development server
